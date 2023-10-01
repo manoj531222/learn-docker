@@ -1,3 +1,3 @@
-FROM    nginx
-RUN     rm -rf /user/share/nginx/html/*
-ADD     index.html /user/share/nginx/html/index.html
+FROM        nginx
+RUN         rm -rf /usr/share/nginx/html/*
+ADD         index.html /usr/share/nginx/html/index.html
